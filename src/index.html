@@ -1,0 +1,39 @@
+<!-- 
+ Jenny Chen
+ jchen679@ucsc.edu
+
+ - left click to change angle, right click to move camera
+ - directional light, point light, spot light with visualization
+ - added lamps with point light that dim during daytime
+ - benches, tree leaves, and buildings are textured
+ - windmill loaded
+ - day-night cycle
+
+ https://polyhaven.com/a/rocky_terrain_02
+ https://polyhaven.com/a/satara_night
+ https://polyhaven.com/a/aerial_grass_rock
+ https://polyhaven.com/a/weathered_planks
+ "Shanghai Tower" (https://skfb.ly/orZKv) by NanoRay is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Three.js Scene</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="c"></canvas>
+    <div id="loading">
+      <div class="progress"><div class="progressbar"></div></div>
+    </div>
+    <script type="importmap">{
+        "imports": {
+            "three": "https://threejs.org/build/three.module.js",
+            "three/addons/": "https://threejs.org/examples/jsm/"
+        }
+    }</script>
+    <script type="module" src="three.js"></script>
+</body>
+</html>
